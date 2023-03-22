@@ -1,5 +1,5 @@
 import "./App.css";
-import { NavBar , CenteredText } from "./components";
+import { NavBar , CenteredText , TextWithImage} from "./components";
 
 
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <NavBar />
       <CenteredText />
+      <TextWithImage/>
     </div>
  )
 }
