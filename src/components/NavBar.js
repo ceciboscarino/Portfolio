@@ -7,14 +7,14 @@ export default function NavBar() {
         <div className="App">
           <AppBar position="static">
             <Toolbar>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              <Typography variant="h6" color="secondary" component="div" sx={{ flexGrow: 1 }}>
                 Chechu
               </Typography>
-              <Button color="inherit">About me</Button>
-              <Button color="inherit">Skills</Button>
-              <Button color="inherit">Projects</Button>
-              <Button color="inherit">Contact me</Button>
-              <Button color="inherit">Login</Button>
+              <Button color="secondary">Skills</Button>
+              <Button color="secondary">Projects</Button>
+              <Button color="secondary">About me</Button>
+              <Button color="secondary">Contact me</Button>
+              <Button color="secondary">Login</Button>
             </Toolbar>
           </AppBar>
         </div>
